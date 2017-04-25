@@ -1,0 +1,36 @@
+#projetwithreactok-okpart1
+projet avec react.	
+Affiche à l'écran toutes les lignes du chat (sans accès IO).
+Bon fini avec quelques petits bug, comme le prenom de l'utilisateur qui ne s'affiche pas
+
+#nodejsfirst
+Fonctionne, webservice avec un accès à MongoDB
+
+#react-chat-example-master projet de godefroy
+https://github.com/Godefroy/react-chat-example
+Projet de chat par le formateur godefroy, jamais testé mais qui devrait fonctionner.
+
+#node-emanagerws-master-tibiane
+webservice node-js développé par le formateur tibiane, sur lequel on avait un peu travaillé.
+A priori fonctionne
+
+#angular2-tuto
+petit exemple angular2 fait par moi, avec 2 composants
+
+#ng-contacts-master-tibiane
+tp angular2 avec cycle de vie des composants
+
+#nodejs-typescript-DESIGNPATTERN
+Projet bien pour commencer en nodejs typescript.
+
+#nodejs-test-unit-mocha
+Mini projet qui fait des tests unit avec mocha
+Les tests sont lancés avec en console "npm test"
+Il faut plutot utiliser la console de visual studio code que cmd
+Un rendu HTML est généré dans le répertoire asset
+
+#nodejs-test-unit-typescript-telephone
+Projet pour essayer le test unitaire avec mocha
+
+#nodejs-test-unit-bouchon-user
+Projet pour faire du test bouchon avec mocha et SINON

@@ -1,0 +1,27 @@
+{
+  "name": "node-emanagerws",
+  "version": "1.0.0",
+  "description": "The Emanager WS in Node using Express",  
+  "main": "src/app/module-api.js",
+  "scripts": {
+	"start": "node src/app/module-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stidiovip/node-emanagerws.git"
+  },
+  "author": "Tidiane SIDIBE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stidiovip/node-emanagerws/issues"
+  },
+  "homepage": "https://github.com/stidiovip/node-emanagerws#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.7",
+    "morgan": "^1.8.1"
+  }
+}

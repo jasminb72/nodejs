@@ -1,0 +1,15 @@
+{
+  "name": "projet-uml-employe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node build/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasmin",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^7.0.12"
+  }
+}

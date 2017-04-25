@@ -1,0 +1,29 @@
+    <div>
+      <h3>Add new one </h3>
+      <form name="new-contact-form">
+
+        <div class="form-group row">
+          <label for="name" class="col-2 col-form-label">Name</label>
+          <div class="col-6">
+            <input class="form-control" type="text" id="_name" name="_name" [(ngModel)]="newContactInfo._name">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="name" class="col-2 col-form-label">Adress</label>
+          <div class="col-6">
+            <input class="form-control" type="text" id="_address" name="_address" [(ngModel)]="newContactInfo._address">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="name" class="col-2 col-form-label">Phone</label>
+          <div class="col-6">
+            <input class="form-control" type="text" id="_phone" name="_phone" [(ngModel)]="newContactInfo._phone">
+          </div>
+        </div>
+
+        <button class="btn btn-primary" (click)="addContact()"> Add </button>
+
+      </form>
+    </div>

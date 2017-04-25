@@ -1,0 +1,23 @@
+<div>
+  <h3>List of contacts</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <td><strong>#</strong></td>
+        <td><strong>Name</strong></td>
+        <td><strong>Adress</strong></td>
+        <td><strong>Phone</strong></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let contact of contacts">
+        <td>{{ contact._id}}</td>
+        <td>{{ contact._name}}</td>
+        <td>{{ contact._address}}</td>
+        <td>{{ contact._phone}}</td>
+        <td><button class="btn btn-primary" (click)="deleteContact(contact._id)"> Supprimer </button></td>
+        <td><button class="btn btn-primary" (click)="updateContact(contact._id)"> Modifier </button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

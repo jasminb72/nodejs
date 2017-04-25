@@ -1,0 +1,29 @@
+    <div>
+      <h3>Modifier Contact</h3>
+      <form name="mod-contact-form">
+
+        <div class="form-group row">
+          <label for="name" class="col-2 col-form-label">Name</label>
+          <div class="col-6">
+            <input class="form-control" type="text" id="_name" name="_name" [(ngModel)]="modContactInfo._name">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="name" class="col-2 col-form-label">Adress</label>
+          <div class="col-6">
+            <input class="form-control" type="text" id="_address" name="_address" [(ngModel)]="modContactInfo._address">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="name" class="col-2 col-form-label">Phone</label>
+          <div class="col-6">
+            <input class="form-control" type="text" id="_phone" name="_phone" [(ngModel)]="modContactInfo._phone">
+          </div>
+        </div>
+
+        <button class="btn btn-primary" (click)="²addContact()"> Add </button>
+
+      </form>
+    </div>
